@@ -353,9 +353,11 @@ open class Http {
             completionHandler(.performDefaultHandling, nil)
         }
         
+        #if os(iOS)
         func urlSessionDidFinishEvents(forBackgroundURLSession session: URLSession) {
             // TODO
         }
+        #endif
         
         // MARK: NSURLSessionTaskDelegate
         
