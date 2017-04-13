@@ -26,8 +26,24 @@ extension String {
         let encodedURL = CFURLCreateStringByAddingPercentEscapes(nil,
             self as NSString,
             nil,
-            "!@#$%&*'();:=+,/?[]",
+            "!@#$%&*'();:=+,/?[]" as CFString!,
             CFStringBuiltInEncodings.UTF8.rawValue)
-        return encodedURL as String
+        return encodedURL as! String
     }
 }
+
+public func merge(_ one: [String: String]?, _ two: [String:String]?) -> [String: String]? {
+    var dict: [String: String]?
+    if let one = one {
+        dict = one
+        if let two = two {
+            for (key, value) in two {
+                dict![key] = value
+            }
+        }
+    } else {
+        dict = two
+    }
+    return dict
+}
+

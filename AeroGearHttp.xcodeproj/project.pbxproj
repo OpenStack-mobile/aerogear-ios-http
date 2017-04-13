@@ -11,7 +11,9 @@
 		4833049A19AF2D43002F8DA9 /* JsonResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4833049519AF2D43002F8DA9 /* JsonResponseSerializer.swift */; };
 		4833049B19AF2D43002F8DA9 /* RequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4833049619AF2D43002F8DA9 /* RequestSerializer.swift */; };
 		4833049C19AF2D43002F8DA9 /* ResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4833049719AF2D43002F8DA9 /* ResponseSerializer.swift */; };
+		483FB7221D23DC9500B4A5D2 /* UtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483FB7211D23DC9500B4A5D2 /* UtilsTests.swift */; };
 		4840C2AD196D5CBE00065270 /* RequestSerializerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4840C2AC196D5CBE00065270 /* RequestSerializerTest.swift */; };
+		4884F0291C7C922A00316B85 /* JSONResponseSerializerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4884F0281C7C922A00316B85 /* JSONResponseSerializerTests.swift */; };
 		488B6B62196B19BC000297C9 /* AeroGearHttp.h in Headers */ = {isa = PBXBuildFile; fileRef = 488B6B61196B19BC000297C9 /* AeroGearHttp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		488B6B6F196B19BC000297C9 /* HttpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B6B6E196B19BC000297C9 /* HttpTests.swift */; };
 		488B6B84196B1CD1000297C9 /* AeroGearHttp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 488B6B5C196B19BC000297C9 /* AeroGearHttp.framework */; };
@@ -56,7 +58,7 @@
 		6F53F67E19ED0FEF00DCFC72 /* HttpRequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F53F67C19ED0FEF00DCFC72 /* HttpRequestSerializer.swift */; };
 		6F53F67F19ED0FEF00DCFC72 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F53F67D19ED0FEF00DCFC72 /* Utils.swift */; };
 		6FCD63A31A166FB60020E52D /* AeroGearHttp.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 488B6B5C196B19BC000297C9 /* AeroGearHttp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9738481B3E5AD4FE9A3351FD /* Pods_AeroGearHttpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87016D454B37752E459070D /* Pods_AeroGearHttpTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		9738481B3E5AD4FE9A3351FD /* Pods_AeroGearHttpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87016D454B37752E459070D /* Pods_AeroGearHttpTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,7 +111,9 @@
 		4833049519AF2D43002F8DA9 /* JsonResponseSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonResponseSerializer.swift; sourceTree = "<group>"; };
 		4833049619AF2D43002F8DA9 /* RequestSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestSerializer.swift; sourceTree = "<group>"; };
 		4833049719AF2D43002F8DA9 /* ResponseSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSerializer.swift; sourceTree = "<group>"; };
+		483FB7211D23DC9500B4A5D2 /* UtilsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilsTests.swift; sourceTree = "<group>"; };
 		4840C2AC196D5CBE00065270 /* RequestSerializerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestSerializerTest.swift; sourceTree = "<group>"; };
+		4884F0281C7C922A00316B85 /* JSONResponseSerializerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONResponseSerializerTests.swift; sourceTree = "<group>"; };
 		488B6B5C196B19BC000297C9 /* AeroGearHttp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AeroGearHttp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		488B6B60196B19BC000297C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		488B6B61196B19BC000297C9 /* AeroGearHttp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AeroGearHttp.h; sourceTree = "<group>"; };
@@ -129,6 +133,7 @@
 		6F53F67D19ED0FEF00DCFC72 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		9F1E441EC283CBBA8D06979E /* Pods-AeroGearHttpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AeroGearHttpTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AeroGearHttpTests/Pods-AeroGearHttpTests.release.xcconfig"; sourceTree = "<group>"; };
 		C87016D454B37752E459070D /* Pods_AeroGearHttpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AeroGearHttpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D696C567BE0A5E985DF7CE97 /* Pods_AeroGearHttp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AeroGearHttp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D846FE9C035DEFD73DA31F8C /* Pods-AeroGearHttpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AeroGearHttpTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AeroGearHttpTests/Pods-AeroGearHttpTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -177,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				C87016D454B37752E459070D /* Pods_AeroGearHttpTests.framework */,
+				D696C567BE0A5E985DF7CE97 /* Pods_AeroGearHttp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -238,6 +244,8 @@
 				6F3D93A21A24EC4000235911 /* HttpAuthenticationTests.swift */,
 				4840C2AC196D5CBE00065270 /* RequestSerializerTest.swift */,
 				6F4F1E3A1A38A12000ECF717 /* JSONRequestSerializerTest.swift */,
+				4884F0281C7C922A00316B85 /* JSONResponseSerializerTests.swift */,
+				483FB7211D23DC9500B4A5D2 /* UtilsTests.swift */,
 				488B6B6C196B19BC000297C9 /* Supporting Files */,
 			);
 			path = AeroGearHttpTests;
@@ -319,13 +327,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 488B6B75196B19BC000297C9 /* Build configuration list for PBXNativeTarget "AeroGearHttpTests" */;
 			buildPhases = (
-				34DA338D6B3150E6A911BAF9 /* Check Pods Manifest.lock */,
+				34DA338D6B3150E6A911BAF9 /* [CP] Check Pods Manifest.lock */,
 				488B6B63196B19BC000297C9 /* Sources */,
 				488B6B64196B19BC000297C9 /* Frameworks */,
 				488B6B65196B19BC000297C9 /* Resources */,
 				6F8894FF1A166F5900496D11 /* Copy Frameworks */,
-				6005304C55CECB8C37FA6B9F /* Copy Pods Resources */,
-				A8BE25B02D574DE88BB38A19 /* Embed Pods Frameworks */,
+				6005304C55CECB8C37FA6B9F /* [CP] Copy Pods Resources */,
+				A8BE25B02D574DE88BB38A19 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -406,9 +414,11 @@
 				TargetAttributes = {
 					488B6B5B196B19BC000297C9 = {
 						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0800;
 					};
 					488B6B66196B19BC000297C9 = {
 						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -472,14 +482,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		34DA338D6B3150E6A911BAF9 /* Check Pods Manifest.lock */ = {
+		34DA338D6B3150E6A911BAF9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,14 +497,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		6005304C55CECB8C37FA6B9F /* Copy Pods Resources */ = {
+		6005304C55CECB8C37FA6B9F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,14 +512,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AeroGearHttpTests/Pods-AeroGearHttpTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A8BE25B02D574DE88BB38A19 /* Embed Pods Frameworks */ = {
+		A8BE25B02D574DE88BB38A19 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -543,8 +553,10 @@
 			files = (
 				488B6B6F196B19BC000297C9 /* HttpTests.swift in Sources */,
 				4840C2AD196D5CBE00065270 /* RequestSerializerTest.swift in Sources */,
+				4884F0291C7C922A00316B85 /* JSONResponseSerializerTests.swift in Sources */,
 				6F3D93A31A24EC4000235911 /* HttpAuthenticationTests.swift in Sources */,
 				6F4F1E3B1A38A12000ECF717 /* JSONRequestSerializerTest.swift in Sources */,
+				483FB7221D23DC9500B4A5D2 /* UtilsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -729,6 +741,7 @@
 		488B6B73196B19BC000297C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
@@ -742,12 +755,14 @@
 				PRODUCT_NAME = AeroGearHttp;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		488B6B74196B19BC000297C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
@@ -760,6 +775,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.aerogear.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = AeroGearHttp;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -767,11 +784,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D846FE9C035DEFD73DA31F8C /* Pods-AeroGearHttpTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -783,6 +797,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -790,17 +805,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9F1E441EC283CBBA8D06979E /* Pods-AeroGearHttpTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				INFOPLIST_FILE = AeroGearHttpTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.aerogear.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
