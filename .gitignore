@@ -28,3 +28,5 @@ Podfile.lock
 
 #playground
 AeroGearHttpSample.playground/timeline.xctimeline
+
+Carthage
